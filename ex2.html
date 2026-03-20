@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>  <!-- Título que aparece na aba do navegador -->
+    <style>
+/* Remove margens padrão do navegador */
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+
+/* Cor escura do fundo externo */
+background-color:#333;
+}
+
+/* Container central do site */
+.container{
+
+/* largura do site */
+width:900px;
+
+/* centraliza o site */
+margin:auto;
+
+/* fundo branco */
+background-color:#fff;
+
+}
+
+/* Cabeçalho */
+header{
+
+/* cor azul escuro */
+background-color:#3c4a63;
+
+/* espaço interno */
+padding:25px;
+
+/* centraliza o texto */
+text-align:center;
+
+/* cor do texto */
+color:white;
+
+}
+
+/* Menu de navegação */
+nav{
+
+/* cor azul esverdeada */
+background-color:#2c7a8c;
+
+/* centraliza os links */
+text-align:center;
+
+/* espaço interno */
+padding:10px;
+
+}
+
+/* Links do menu */
+nav a{
+
+/* cor branca */
+color:white;
+
+/* remove sublinhado */
+text-decoration:none;
+
+/* espaço entre os links */
+margin:0 15px;
+
+/* deixa em negrito */
+font-weight:bold;
+
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover{
+
+/* muda a cor */
+text-decoration:underline;
+
+}
+
+/* Área do conteúdo */
+main{
+
+/* espaço interno */
+padding:30px;
+
+}
+
+/* Títulos das seções */
+h2{
+
+/* cor azul */
+color:#2c3e94;
+
+/* linha inferior */
+border-bottom:2px solid #9aa6d1;
+
+/* espaço abaixo */
+padding-bottom:5px;
+
+}
+
+/* Parágrafos */
+p{
+
+/* espaçamento entre linhas */
+line-height:1.6;
+
+/* alinhamento do texto */
+text-align:justify;
+
+}
+
+/* Rodapé */
+footer{
+
+/* cor cinza clara */
+background-color:#d9d9d9;
+
+/* centraliza texto */
+text-align:center;
+
+/* espaço interno */
+padding:10px;
+
+/* tamanho menor da fonte */
+font-size:14px;
+}
+.home{
+    background-color: aquamarine;
+}
+    </style>
+</head>
+<!-- Container principal que segura todo o layout -->
+<div class="container">
+
+    <!-- Cabeçalho do site -->
+    <header>
+
+        <!-- Título principal da página -->
+        <h1>Desenvolvimento Web I</h1>
+
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+
+        <!-- Links do menu -->
+        <a class="home" href="#">HOME</a>
+        <a href="#">IFPR</a>
+        <a href="#">TADS</a>
+
+    </nav>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+
+        <!-- Primeira seção -->
+        <section>
+
+            <!-- Título da seção -->
+            <h2>Introdução</h2>
+
+            <!-- Parágrafo de texto -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat.
+            </p>
+
+        </section>
+
+        <!-- Segunda seção -->
+        <section>
+
+            <!-- Título da seção -->
+            <h2>Conteúdo</h2>
+
+            <!-- Parágrafo -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                ea commodo consequat.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+
+        <!-- Texto do rodapé -->
+        <p>Desenvolvido por empresa web</p>
+
+    </footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+ *{   /*seletor geral*/
+    margin: 0px;/* margin*/
+    padding: 0px;/* espaço entre a borda interna */
+    color: white; /* cor do seletor geral, seleciona cor para todos os itens no codigo*/
+ }
+ body{ /* corpo*/
+    background-color: rgb(53, 50, 50); /* cor selecionada para o corpo*/
+    margin: 0%; /* margem do corpo*/
+    padding: 35px; /* borda interna do corpo*/
+    padding-top: 5px; /*porda superior */
+
+   
+  
+ }
+ header{ /*cabeçario*/
+    display: flex; /*definicao do tipo de layout*/
+    justify-content: center; /*alinha itens horizontamelte em grid ou flex*/
+    
+ }
+ h1{  
+    color: white;/*cor do texto*/
+    font-size: 40px;/*tamanho da fonte */
+ }
+ nav{ 
+    display: flex;/*definicao do tipo de layout*/
+    justify-content: center;/*alinha itens horizontamelte em grid ou flex*/
+    gap: 10px;/*espaço emtre os elementos flex ou grid*/
+    margin-bottom: 20px;/*margem inferior*/
+    
+
+ }
+
+ a{     
+    padding: 10px;  /*espaço entre a borda interna*/
+    color: white;  /*cor dos caracteres*/
+    background-color: rgb(129, 122, 122);  /*cor do fundo*/
+    font-size: 18px;/*tamanho da fonte */
+    border-radius: 5px;/* aredonda cantos dos elementos */
+
+ }
+ .home{/**/
+    background-color: rgb(5, 83, 5);/* cor do fundo */
+
+ }
+ .caixa{/**/
+    background-color: rgb(129, 122, 122);/**/
+    border: 3px solid black;       /*propriedades da borda*/ 
+    height: 34vw; /*altura do elemento*/
+    font-size:28px ;/*tamanho da fonte*/
+    padding: 20px; /*espaço da borda interna */
+    margin-bottom: 10px;
+
+
+ }
+ 
+ h2{
+    color: yellow;/*cor do fundo*/
+
+ }
+ hr{/**/
+    height: 2px;/*define altura do elemento*/
+    background-color: yellow;/*cor do fundo*/
+    margin-top: 5px;/*define borda superior*/
+ }
+
+footer{
+    display: flex;
+    background-color: rgb(129, 122, 122);/**/
+    border: 3px solid black;       /*propriedades da borda*/ 
+    height: 4vw; /*altura do elemento*/
+    font-size:28px ;/*tamanho da fonte*/
+    padding: 20px; /*espaço da borda interna */
+    justify-content: center;
+    align-items: center;
+}
