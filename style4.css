@@ -1,0 +1,35 @@
+*{   /*seletor geral*/
+    margin: 0px;/* margin*/
+    padding: 0px;/* espaço entre a borda interna */
+    color: black; /* cor do seletor geral, seleciona cor para todos os itens no codigo*/
+ }
+ .geral{
+
+ }
+ 
+
+ header{
+    background-color: #9af6b1;/*cor do fundo*/
+    display: flex;/* para ajustar o display*/
+    justify-content: center;/*ajuste do display*/
+    align-items: center;/*ajuste dos itens */
+    gap: 20px;/*espaço entre os elementos */
+    height: 130px;/*altura da coluna colorida*/
+    flex-direction: column;/
+ }
+ h1{
+    font-size: 30px;/* define o tamanho da fonte */
+ }
+ .cabecario a{
+    font-size: 22px;
+    background-color: rgba(121, 202, 141, 0.69);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(15, 142, 174);
+    
+ }
+ h2{
+    font-size: 38px;
+    color:#7ceb98;
+ }
